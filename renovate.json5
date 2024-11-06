@@ -16,7 +16,7 @@
       "description": "Provide sequenced Terraform updates for all 1.x versions",
       "matchDepNames": ["hashicorp/terraform"],
       "matchCurrentVersion": ">=1.0",
-      //"groupName": "terraform-1.x",
+      "groupName": "terraform-1.x",
       "separateMultipleMinor": true
     },
   ]
