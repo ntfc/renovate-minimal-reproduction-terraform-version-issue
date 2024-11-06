@@ -3,19 +3,19 @@
   "packageRules": [
     {
       "description": "Provide sequenced Terraform updates from 0.x up to 1.0.x",
-      "matchDepNames": ["hashicorp/terraform"],
+      //"matchDepNames": ["hashicorp/terraform"],
       "matchCurrentVersion": "<1.0",
       // ensure that major upgrade won't go straight to latest 1.x but first go with the latest 1.0.x
       "allowedVersions": "<1.1",
       "groupName": null,
       "separateMultipleMinor": true
     },
-    {
+    /*{
       "description": "Provide sequenced Terraform updates for all 1.x versions",
       "matchDepNames": ["hashicorp/terraform"],
       "matchCurrentVersion": ">=1.0",
       "groupName": null,
       "separateMultipleMinor": true
-    },
+    },*/
   ]
 }
