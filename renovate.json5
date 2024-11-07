@@ -4,20 +4,8 @@
   "prConcurrentLimit": 10,
   "packageRules": [
     {
-      "description": "Provide sequenced Terraform updates from 0.x up to 1.0.x",
+      "description": "Provide sequenced Terraform minor updates",
       "matchDepNames": ["hashicorp/terraform"],
-      "matchCurrentVersion": "<1.0.0",
-      // ensure that major upgrade won't go straight to latest 1.x but first go with the latest 1.0.x
-      "allowedVersions": "<1.1.0",
-      "groupName": null,
-      "separateMultipleMinor": true,
-      // must be explicitly approved in the dependency dashboard
-      //"dependencyDashboardApproval": true,
-    },
-    {
-      "description": "Provide sequenced Terraform updates for all 1.x versions",
-      "matchDepNames": ["hashicorp/terraform"],
-      "matchCurrentVersion": ">=1.0.0",
       "groupName": null,
       "separateMultipleMinor": true,
       // must be explicitly approved in the dependency dashboard
