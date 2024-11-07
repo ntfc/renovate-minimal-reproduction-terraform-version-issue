@@ -2,13 +2,12 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "prHourlyLimit": 0,
   "prConcurrentLimit": 10,
+  "separateMultipleMinor": true,
   "packageRules": [
     {
       "description": "Provide sequenced Terraform minor updates",
       "matchDepNames": ["hashicorp/terraform"],
-      "matchDepType": ["required_version"],
-      //"groupName": null,
-      "separateMultipleMinor": true,
+      "groupName": null,
       // must be explicitly approved in the dependency dashboard
       //"dependencyDashboardApproval": true,
     },
