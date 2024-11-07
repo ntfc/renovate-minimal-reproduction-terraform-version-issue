@@ -13,8 +13,6 @@
       "allowedVersions": "<1.1",
       "groupName": null,
       "separateMultipleMinor": true,
-      // must be explicitly approved in the dependency dashboard
-      "dependencyDashboardApproval": true,
     },
     {
       "description": "Provide sequenced Terraform updates for all 1.x versions",
@@ -25,8 +23,6 @@
       "allowedVersions": "<1.3", // only to prevent so many PRs
       "groupName": null,
       "separateMultipleMinor": true,
-      // must be explicitly approved in the dependency dashboard
-      "dependencyDashboardApproval": true
     },
   ]
 }
