@@ -8,11 +8,11 @@
       "matchDepNames": ["hashicorp/terraform"],
       // important to set this otherwise PRs will update only the terraform file and not the version file
       "matchManagers": ["terraform", "terraform-version"],
-      "matchCurrentVersion": "<1.0.0",
-      //"matchCurrentVersion": "/^0\\./",
+      //"matchCurrentVersion": "<1.0.0",
+      "matchCurrentVersion": "/^0\\./",
       // ensure that major upgrade won't go straight to latest 1.x but first go with the latest 1.0.x
       "allowedVersions": "<1.1.0",
-      "groupName": "terraform-0.x",
+      "groupName": null,
       "separateMultipleMinor": true,
     },
     {
@@ -20,10 +20,10 @@
       "matchDepNames": ["hashicorp/terraform"],
       // important to set this otherwise PRs will update only the terraform file and not the version file
       "matchManagers": ["terraform", "terraform-version"],
-      "matchCurrentVersion": ">=1.0.0",
-      //"matchCurrentVersion": "/^1\\./",
+      //"matchCurrentVersion": ">=1.0.0",
+      "matchCurrentVersion": "/^1\\./",
       "allowedVersions": "<1.3.0", // only to prevent so many PRs
-      "groupName": "terraform-1.x",
+      "groupName": null,
       "separateMultipleMinor": true,
     },
   ]
