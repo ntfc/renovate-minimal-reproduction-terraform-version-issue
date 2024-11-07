@@ -5,6 +5,7 @@
   "prBodyColumns": [
     "Manager",
     "Package",
+    "Versioning",
     "Type",
     "Update",
     "Change",
