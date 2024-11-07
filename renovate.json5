@@ -5,16 +5,11 @@
   "prBodyColumns": [
     "Manager",
     "Package",
-    "Versioning",
     "Type",
     "Update",
     "Change",
     "Package file",
     "Versioning",
-    "Old version",
-    "New version",
-    "Old value",
-    "New value",
     "Pending"
   ],
   "packageRules": [
