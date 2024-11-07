@@ -6,7 +6,7 @@
     {
       "description": "Provide sequenced Terraform minor updates",
       "matchDepNames": ["hashicorp/terraform"],
-      "groupName": null,
+      //"groupName": null,
       "separateMultipleMinor": true,
       // must be explicitly approved in the dependency dashboard
       //"dependencyDashboardApproval": true,
