@@ -8,12 +8,12 @@
     "Type",
     "Update",
     "Change",
-    "Package file", // to show both Dockerfile and build-properties.json
+    "Package file",
     "Versioning",
-    "Old Version",
-    "New Version",
-    "Old Value",
-    "New Value",
+    "Old version",
+    "New version",
+    "Old value",
+    "New value",
     "Pending"
   ],
   "packageRules": [
