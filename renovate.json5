@@ -5,6 +5,7 @@
   "packageRules": [
     {
       "description": "Provide sequenced Terraform minor updates",
+      "matchManagers": ["terraform", "terraform-version"],
       "matchDepNames": ["hashicorp/terraform"],
       "groupName": null,
       "separateMultipleMinor": true,
