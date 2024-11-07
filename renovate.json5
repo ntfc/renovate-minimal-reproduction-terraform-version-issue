@@ -2,6 +2,20 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "prHourlyLimit": 0,
   "prConcurrentLimit": 10,
+  "prBodyColumns": [
+    "Manager",
+    "Package",
+    "Type",
+    "Update",
+    "Change",
+    "Package file", // to show both Dockerfile and build-properties.json
+    "Versioning",
+    "Old Version",
+    "New Version",
+    "Old Value",
+    "New Value",
+    "Pending"
+  ],
   "packageRules": [
     {
       "description": "Provide sequenced Terraform updates from 0.x up to 1.0.x",
